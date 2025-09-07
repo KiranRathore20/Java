@@ -1,0 +1,22 @@
+class student
+{
+ int rollno;  
+ String name;  
+ void insertRecord(int r, String n)
+{  
+  rollno=r;  
+  name=n;  
+ }  
+ void displayInformation(){System.out.println(rollno+" "+name);}  
+}  
+class Student2
+{  
+ public static void main(String args[]){  
+  Student s1=new Student();  
+   Student s2=new Student();  
+  s1.insertRecord(111,"Kiran");  
+  s2.insertRecord(222,"Meenu");  
+  s1.displayInformation();  
+  s2.displayInformation();  
+ }  
+}  
